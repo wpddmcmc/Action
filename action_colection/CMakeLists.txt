@@ -18,7 +18,7 @@ aux_source_directory(./src/ DIR_SRCS)
 add_executable(body_points  ${DIR_SRCS})
 
 include_directories ( 
-    /home/zhangyp/WorkSpace/openpose-master/include
+    ~/openpose-master/include
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     /usr/local/include
     /usr/include 
@@ -29,6 +29,6 @@ ${OpenCV_LIBS}
 /usr/lib
 /usr/local/lib
 /usr/local/lib/libopenpose.so
-/home/zhangyp/WorkSpace/caffe-master/build/lib/libcaffe.so
+~/caffe-master/build/lib/libcaffe.so
 /usr/lib/x86_64-linux-gnu/libgflags.so.2
     )
